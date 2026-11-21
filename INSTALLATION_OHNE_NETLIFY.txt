@@ -1,0 +1,12 @@
+AUFMASS-APP – INSTALLATION OHNE NETLIFY
+
+Einmalige Veröffentlichung mit GitHub Pages (kostenlos):
+1. Auf github.com ein Konto erstellen und anmelden.
+2. Neues öffentliches Repository erstellen, z.B. aufmass-ficker.
+3. Unter Add file > Upload files die fünf App-Dateien hochladen: index.html, manifest.webmanifest, sw.js, icon-192.png und icon-512.png. Die Dateien müssen direkt im Hauptverzeichnis liegen.
+4. Settings > Pages > Build and deployment: Deploy from a branch, Branch main, Ordner /(root), Save.
+5. Nach der Veröffentlichung die dort angezeigte HTTPS-Adresse in Safari öffnen.
+6. Teilen > Zum Home-Bildschirm > Hinzufügen. App einmal online öffnen und anschließend Offline-Funktion im Flugmodus testen.
+7. Auf dem iPad die gleiche Adresse in Safari öffnen und zum Home-Bildschirm hinzufügen.
+
+WICHTIG: Aufmaße werden lokal und getrennt pro Gerät gespeichert, keine Synchronisierung. Regelmäßig Datensicherung exportieren. Bei Löschen der Website-Daten oder App können gespeicherte Aufmaße verloren gehen. Das GitHub-Repository ist öffentlich: keine Kundendaten in die hochgeladenen App-Dateien schreiben.

@@ -1,0 +1,8 @@
+AUFMASS-APP – MALERMEISTER FICKER
+
+1. Die Datei index.html kann auf einem Computer in einem Browser getestet werden.
+2. Für eine zuverlässige Installation auf iPhone und iPad als Offline-Web-App müssen alle Dateien dieses Ordners einmalig auf einem HTTPS-Webserver bereitgestellt werden (z. B. GitHub Pages oder eigener Webspace).
+3. Die HTTPS-Adresse auf iPhone/iPad in Safari öffnen, auf Teilen > Zum Home-Bildschirm gehen und die App einmal bei bestehender Internetverbindung starten.
+4. Danach funktioniert die App offline; die Daten werden lokal auf dem jeweiligen Gerät gespeichert.
+5. Wichtig: Regelmäßig über „Datensicherung (JSON)“ eine Sicherung in Dateien/iCloud exportieren. Safari-Daten löschen oder ein Gerätewechsel kann lokale Aufmaße sonst löschen. Daten werden NICHT automatisch zwischen iPhone und iPad synchronisiert.
+6. PDF: Aufmaß öffnen, „Aufmaß drucken / als PDF sichern“ wählen; in iOS über die Druckvorschau / Teilen in Dateien sichern.
