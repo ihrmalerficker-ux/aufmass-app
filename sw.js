@@ -1,4 +1,4 @@
-const CACHE='aufmass-ficker-v4';
+const CACHE='aufmass-ficker-v5';
 const REQUIRED=['./','./index.html'];
 const OPTIONAL=['./manifest.webmanifest','./logo.jpg','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>{event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(REQUIRED);await Promise.allSettled(OPTIONAL.map(url=>cache.add(url)));await self.skipWaiting()})())});
