@@ -1,4 +1,4 @@
-const CACHE='aufmass-ficker-v20261122-pdfshare3';
+const CACHE='aufmass-ficker-v20261122-pdfshare4';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./logo.jpg'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>Promise.all(ASSETS.map(path=>cache.add(path).catch(()=>{})))).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('aufmass-ficker-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});
