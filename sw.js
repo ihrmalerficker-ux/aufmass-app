@@ -1,4 +1,4 @@
-const CACHE='aufmass-ficker-2026-11-22-zeichnungen-alle-v2';
+const CACHE='aufmass-ficker-2026-11-24-freie-leistungen-v3';
 const FILES=['./','./index.html','./manifest.webmanifest','./logo.jpg','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(async cache=>{await Promise.allSettled(FILES.map(url=>cache.add(url)));await self.skipWaiting()}))});
 self.addEventListener('activate',event=>{event.waitUntil((async()=>{for(const key of await caches.keys())if(key!==CACHE)await caches.delete(key);await self.clients.claim()})())});
